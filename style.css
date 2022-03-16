@@ -1,0 +1,73 @@
+.first, .contener, .contenerTwo, .contenerThree, .contenerFour, .contenerFive, .contenerSix, .contenerSeven {
+    display: flex;
+    justify-content: center;
+}
+
+.four {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.second, .three, .five, .six, .seven, .eigth, .nine {
+    width: 350px;
+    height: 450px;
+    border: 1px solid #D6D2C4;
+    border-radius: 20px;
+    background-image: url(фон2.jpg);
+    background-size: cover;
+    margin: 20px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 20px;
+    color: #968C83;
+}
+
+.input, .inputTwo, .inputThree, .inputFour, .inputFive, .inputSix, .inputSeven {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #D6D2C4;
+}
+
+.head {
+    font-size: 50px;
+    background: linear-gradient(to left, #D6D2C4, #92817A, #5D534A);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.btn, .btnTwo, .btnThree, .btnFour, .btnFive, .btnSix, .btnSeven {
+    background-color: #D6D2C4;
+    border: none;
+    color: #2C2E43;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1588765052310-59d313f3dfee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.item {
+    padding: 8px;
+    width: 80%;
+    text-align: start;
+    font-style: italic;
+    color: #2C2E43;
+}
+
+.itemTwo {
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.list, .listTwo, .listThree, .listFour, .listFive, .listSix, .listSeven {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
